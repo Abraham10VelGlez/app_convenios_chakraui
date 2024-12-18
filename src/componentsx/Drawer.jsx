@@ -1,7 +1,7 @@
 "use client"
 
 import { Input, Stack } from "@chakra-ui/react"
-import { Button } from "@/components/ui/button"
+import { Button } from "@chakra-ui/react"
 import {
     DrawerActionTrigger,
     DrawerBackdrop,
@@ -13,7 +13,7 @@ import {
     DrawerRoot,
     DrawerTitle,
     DrawerTrigger,
-} from "@/components/ui/drawer"
+} from "@chakra-ui/react"
 import { useRef } from "react"
 
 export default function Drawer  ()  {

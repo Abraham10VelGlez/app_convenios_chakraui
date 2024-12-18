@@ -70,7 +70,7 @@ export default function Welcome_site() {
                         </div>
                         <div className="hero_img-container">
                             <div>
-                                <img src="../public/images/hero.png" alt="" className="img-fluid" />
+                                <img src="https://www.boletin.ai/wp-content/uploads/2024/06/convenio-de-la-haya-paises-firmantes.png" alt="" className="img-fluid" />
                             </div>
                         </div>
                     </div>

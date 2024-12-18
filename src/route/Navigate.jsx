@@ -5,6 +5,7 @@ import { Routes, Route, useNavigate, Link, useLocation } from 'react-router-dom'
 import Cookies from 'js-cookie';
 import App2 from '../App2';
 import Welcome_site from '../componentsx/Welcome_site';
+import Indexchkra from '../componentsx/Indexchakra';
 //import Protector_ from './protector';
 ///import { Hook_Auth_JsonwebToken } from '../Hooks/login/hook_authentic';
 //import Welcome_especialista from '../sesion/especialista/Views/Welcome_especialista';
@@ -30,9 +31,11 @@ export default function Navigate() {
 
         <Routes location={location} key={location.pathname}>
             {/* rutas libres */}
-            <Route path="/" index element={<Welcome_site></Welcome_site>} />
+            <Route path="/" index element={<Indexchkra></Indexchkra>} />
             <Route path="/inicio2" index element={<App2></App2>} />
+            
             {/*
+            <Welcome_site></Welcome_site>
             <Route path="/inicio" index element={<Welcome></Welcome>} />
             <Route path="/ini2" index element={<Home />} />
             <Route path="/404" element={<Error404 />} />
